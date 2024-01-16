@@ -62,7 +62,7 @@ form{
     margin-left: 22%;
     padding: 10px 15px;
 }
-input{
+select{
     width: 140px;
     height: 35px;
     border-radius: 8px;
@@ -204,7 +204,7 @@ button{
 /* ,,,,,,,,,,,SECTION THREE END ,,,,,*/
 
 .section-4{
-    margin: 40px 80px;
+    margin: 60px 80px;
 }
 .section-4-text{
     text-align: center;
@@ -261,6 +261,54 @@ button{
     font-weight: 800;
 }
 /* ,,,,,,,,,SECTION FOUR END,,,,,, */
+.section-5{
+    margin: 40px 80px;
+}
+.discounts{
+    width: 50%;
+    height: 300px;
+    padding: 16px 20px;
+    position: relative;
+    left: 40%;
+    top: 14%;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+}
+.section-5-bg{
+    background-image: url(Images/Group\ 39.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 460px;
+    border-radius: 16px;
+}
+.new-bg{
+    background-image: url(Images/Group\ 40.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 460px;
+    border-radius: 16px;
+}
+.new-discounts{
+    position: relative;
+    left: 6%;
+    top: 14%;
+}
+
+.discounts i{
+    font-size: 22px;
+    color: #FF5400;;
+}
+.discounts h4{
+    font-size: 20px;
+    color: #FF5400;;
+}
+.discounts h3{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
 
 /* footer{
     background: rgba(19, 19, 24, 0.05);
@@ -342,7 +390,7 @@ footer a{
         right: 33px;
         padding: 12px 16px;
     }
-    form input,button{
+    form select,button{
         width: 100%;
         margin-top: 12px;
     }
@@ -399,6 +447,25 @@ footer a{
         margin-left: 0;
         position: relative;
         right: 40px;
+    }
+    .section-5-bg{
+        width: 380px;
+        height: 560px;
+        position: relative;
+        right: 20px;
+    }
+    .discounts{
+        width: 300px;
+        position: relative;
+        left: 5%;
+        top: 24%;
+    }
+    .discounts button{
+        width: 50%;
+    }
+    .section-4-text{
+        width: 300px;
+        text-align: center;
     }
     /* footer{
         min-width: 420px;
