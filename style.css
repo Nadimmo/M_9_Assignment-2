@@ -82,6 +82,7 @@ button{
     display: none;
 }
 
+/* ,,,,,,,,,SECTION ONE END ,,,,,,,,*/
 .section-2{
     display: flex;
     justify-content: space-between;
@@ -104,6 +105,8 @@ button{
     width: 410px;
     height: 420px;
 }
+/*,,,,,,,,,,, SECTION TWO END,,,,,,,, */
+
 .section-3{
     margin: 40px 80px;
 }
@@ -111,6 +114,7 @@ button{
 .first-part, .second-part,.third-part{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    gap: 25px;
 }
 .item1{
     display: grid;
@@ -148,7 +152,6 @@ button{
 .item4 img{
     width:430px ;
     height: 280px;
-    padding-right: 23px;
 }
 .section-3-text p{
     margin-left: 25%;
@@ -158,8 +161,108 @@ button{
     font-size: 1rem;
     font-weight: 400;
 }
+.item1, .item2{
+    position: relative;
+    
+}
+.item1 p, .item2 p{
+    position: absolute;
+    padding-left: 40%;
+    padding-top: 28%;
+    font-size: 30px;
+    font-weight: 600;
+    color: #FFF;
+}
+.item3, .item5{
+    position: relative;
+    
+}
+.item3 p, .item5 p{
+    position: absolute;
+    padding-left: 30%;
+    padding-top: 46%;
+    font-size: 30px;
+    font-weight: 600;
+    color: #FFF;
+}
+.item6 p, .item7 p{
+    position: relative;
+    bottom: 170px;
+    padding-left: 34%;
+    font-size: 30px;
+    font-weight: 600;
+    color: #FFF;
+}
+.item4 p{
+    position: relative;
+    bottom: 170px;
+    left: 30%;
+    font-size: 30px;
+    font-weight: 600;
+    color: #FFF;
+}
+/* ,,,,,,,,,,,SECTION THREE END ,,,,,*/
 
-footer{
+.section-4{
+    margin: 40px 80px;
+}
+.section-4-text{
+    text-align: center;
+}
+.section-4-second-text{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.text-item1 h3, .text-item2 h3, .text-item3 h3 {
+    color: #131318;
+    font-size: 24px;
+}
+.text-item1 p, .text-item2 p, .text-item3 p {
+    color: #5A5A5D;
+    font-size: 16px;
+}
+.text-item1 i, .text-item2 i, .text-item3 i{
+    font-size: 44px;
+    color: orange;
+}
+.text-item1{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 12px 20px;
+}
+.text-item2{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 12px 20px;
+    margin-left: 10%;
+}
+.text-item3{
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 12px 20px;
+    width: 46%;
+    margin-left: 25%;
+}
+.section-4-text P{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    width: 60%;
+    margin-left: 20%;
+}
+.section-4-text h1{
+    color: #131318;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 800;
+}
+/* ,,,,,,,,,SECTION FOUR END,,,,,, */
+
+/* footer{
     background: rgba(19, 19, 24, 0.05);
     text-align: center;
     color: #5A5A5D;
@@ -178,7 +281,21 @@ footer a{
     color: #000;
     font-size: 22px;
     padding: 10px 10px;
-}
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -209,8 +326,6 @@ footer a{
     .section-1{
         flex-direction: column;
         width: 80%;
-        position: relative;
-        right: 20px;
     }
     .section-1 h1, .section-3 h1{
         font-size: 2rem;
@@ -234,7 +349,7 @@ footer a{
     .section-2{
         flex-direction: column;
         position: relative;
-        left: 20px;
+        left: 50px;
     }
     .section-2-text h1,p,ul li{
         width: 300px;
@@ -249,24 +364,43 @@ footer a{
     }
     .first-part, .second-part,.third-part{
         display: inline-block;
-        position: relative;
-        right: 36px;
     }
     .item1 img , .item2 img, .item6 img , .item7 img , .item3 img , .item4 img , .item5 img{
         width: 310px;
         height: 320px;
+        padding-top: 20px;
     }
     .section-3-text p{
         font-size: 14px;
         width: 92%;
-        position: relative;
-        right: 20px;
     }
     .section-3-text h1{
         position: relative;
-        left: 30px;
+        left: 40px;
     }
-    footer{
+    .item1 p, .item2 p{
+        padding-left: 30%;
+        padding-top: 50%;
+    }
+    .item4 p{
+        left:20% ;
+    }
+    .item6 p, .item7 p{
+        right: 20px;
+    }
+    .section-4-second-text{
+        flex-direction: column;
+    }
+    .section-4 div{
+        width: 360px;
+        margin-left: 0;
+    }
+    .text-item3, .text-item2, .text-item1{
+        margin-left: 0;
+        position: relative;
+        right: 40px;
+    }
+    /* footer{
         min-width: 420px;
     }
     .footer h1{
@@ -274,5 +408,5 @@ footer a{
     }
     footer p{
         padding-left: 12%;
-    }
+    } */
 }
